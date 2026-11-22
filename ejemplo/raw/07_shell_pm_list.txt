@@ -1,0 +1,8 @@
+package:/system/app/SamsungCamera/SamsungCamera.apk=com.sec.android.app.camera versionCode:140500 installer=null
+package:/system/priv-app/Settings/Settings.apk=com.android.settings versionCode:34 installer=null
+package:/product/app/Messages/Messages.apk=com.google.android.apps.messaging versionCode:190030 installer=null
+package:/data/app/~~a1/com.whatsapp-1/base.apk=com.whatsapp versionCode:242210 installer=com.android.vending
+package:/data/app/~~b2/com.mercadopago.wallet-1/base.apk=com.mercadopago.wallet versionCode:2614 installer=com.android.vending
+package:/data/app/~~c3/com.facebook.katana-1/base.apk=com.facebook.katana versionCode:4721 installer=com.android.vending
+package:/data/app/~~d4/com.anydesk.anydeskandroid-1/base.apk=com.anydesk.anydeskandroid versionCode:8120 installer=null
+package:/data/app/~~e5/com.calculator.hide.photo.video-1/base.apk=com.calculator.hide.photo.video versionCode:57 installer=null

@@ -1,0 +1,5 @@
+package:com.whatsapp
+package:com.mercadopago.wallet
+package:com.facebook.katana
+package:com.anydesk.anydeskandroid
+package:com.calculator.hide.photo.video

@@ -1,0 +1,5 @@
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  level: 63
+  scale: 100

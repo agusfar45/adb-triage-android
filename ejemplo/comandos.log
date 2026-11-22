@@ -1,0 +1,14 @@
+01 2026-11-22T01:49:45+00:00 codigo=0 sha256=21bb3b8702c40f9ad260992f3a961f66e748b66a94ff7ffd12ad8cb8162f19ce adb version
+02 2026-11-22T01:49:46+00:00 codigo=0 sha256=a5a082963a36a8cfe64cd75f2c6ce00c9480eb77369d77dc4407cc56a7f127e3 adb devices -l
+03 2026-11-22T01:49:46+00:00 codigo=0 sha256=1a038543774829e084ed6dca047a5b3262d8b16ef1017c3e3bd2430dc31ed91a adb shell getprop
+04 2026-11-22T01:49:46+00:00 codigo=0 sha256=90cf9968d034f72410b8e5bb28e470d419c6645eb4bdcb37ae0612357d5bbcc4 adb shell date +%s
+05 2026-11-22T01:49:46+00:00 codigo=0 sha256=da1437ea79f7a3a34417c056373a58a637783f8ab43f6397c1655d32eb12b239 adb shell dumpsys battery
+06 2026-11-22T01:49:46+00:00 codigo=0 sha256=13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354 adb shell settings get global airplane_mode_on
+07 2026-11-22T01:49:47+00:00 codigo=0 sha256=c625e949d349f50f44f947842eb23efe5bdc193f564a9fefdee4b6c429a06bed adb shell pm list packages -f -i --show-versioncode
+08 2026-11-22T01:49:47+00:00 codigo=0 sha256=5854632613cbec3eae65a2c6babfe6a9209e8a8551744ea4754f8728df1efdc3 adb shell pm list packages -3
+09 2026-11-22T01:49:47+00:00 codigo=0 sha256=d95fcc8dcd36e7f3eca6f39e18817b8df141f256d524cc36e4e29f3267b5a834 adb shell find /sdcard/DCIM -type f -exec sha256sum {} +
+10 2026-11-22T01:49:47+00:00 codigo=0 sha256=b031971f7a8f158289299af12932f2ef6ea3078336d3ac07c00d0dc0e76bdff5 adb shell find /sdcard/DCIM -type f -exec stat -c %Y|%s|%n {} +
+11 2026-11-22T01:49:47+00:00 codigo=0 sha256=2ebe8958fffe791cb7e4074fc99ce40efd477ea0c856fa7f743b1c3a335aca33 adb pull -a /sdcard/DCIM <carpeta de extracción>\archivos
+12 2026-11-22T01:49:48+00:00 codigo=0 sha256=54a9b68bdfbeae94fc58c46894fe9a249e4977703cc0264dcc8b4ee46180c2c5 adb shell find /sdcard/Download -type f -exec sha256sum {} +
+13 2026-11-22T01:49:48+00:00 codigo=0 sha256=75921cc40f205b21c2d5039a9eb5c5f940bfb6f1857b19c8ca63ed3af0a0cf47 adb shell find /sdcard/Download -type f -exec stat -c %Y|%s|%n {} +
+14 2026-11-22T01:49:48+00:00 codigo=0 sha256=6fe4c8e71960e0326d11688bbe5c0b975956f1fd4d5c0e1959da1f6c18f837d3 adb pull -a /sdcard/Download <carpeta de extracción>\archivos

@@ -1,0 +1,7 @@
+Dispositivo: R58TA0FICT1 (SM_A546E)
+  samsung SM-A546E · Android 14 · parche 2026-09-01
+  Reloj del teléfono: -186 s respecto de la PC · batería 63 % · modo avión DESACTIVADO
+  8 apps (5 del usuario, 5 de interés pericial)
+  4 archivos copiados · hashes teléfono vs. copia: todos coinciden
+
+Acta: ejemplo/acta.md  (SHA-256 6b9921d7c2b953b8a105f1f752a8ff3cab9b9d42d0b5b8130771baf05b38c357)
